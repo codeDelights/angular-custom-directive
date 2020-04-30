@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { DateFormatDirective } from './directives/date-format.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DateFormatDirective
   ],
   imports: [
     BrowserModule
