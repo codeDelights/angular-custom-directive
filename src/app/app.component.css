@@ -1,6 +1,6 @@
-.error {
-    border: 2px solid red;
-}
-.error:focus {
-    outline: none;
+.form-control {
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
 }
